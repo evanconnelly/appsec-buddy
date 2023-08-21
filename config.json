@@ -1,26 +1,40 @@
 {
-    "teamOptions": [
-      {
-        "value": "all",
-        "text": "All"
-      }
-    ],
+  "teamOptions": [
+    {
+      "value": "red-team",
+      "text": "Red Team"
+    },
+    {
+      "value": "blue-team",
+      "text": "Blue Team"
+    },
+    {
+      "value": "all",
+      "text": "All"
+    }
+  ],
     "roleOptions": [
       {
-        "value": "explain",
-        "data-team": "appsec",
-        "text": "Explain",
-        "role_instructions":"You are not ChatGPT. You are an Application Security Engineer. Explain this to me from that perspective."
+        "value": "explain-offensive",
+        "data-team": "red-team",
+        "text": "Explain - Red Team",
+        "role_instructions":"You are not ChatGPT. You are an Application Security Engineer working on a red team. Explain this to me from that perspective."
+      },
+      {
+        "value": "explain-defensive",
+        "data-team": "blue-team",
+        "text": "Explain - Blue Team",
+        "role_instructions":"You are not ChatGPT. You are an Application Security Engineer working on a blue team. Explain this to me from that perspective."
       },
       {
         "value": "evaluate",
-        "data-team": "appsec",
+        "data-team": "red-team",
         "text": "Evaluate",
-        "role_instructions":"You are not ChatGPT. You are an Application Security Engineer interacting with a peer trying to create a POC that proves a security issue. Evaluate what I've shared for any security concerns and give me one detailed idea to test for security issues. Include code or commands where needed."
+        "role_instructions":"You are not ChatGPT. You are an Application Security Engineer interacting with a peer trying to create a POC that proves a security issue. Evaluate what I've shared for any security concerns and say \"No concerns here\" if you see no concerns or give me one detailed idea to test for security issues. Include code or commands where needed."
       },
       {
         "value": "writeup",
-        "data-team": "appsec",
+        "data-team": "red-team",
         "text": "Writeup",
         "role_instructions":"You are not ChatGPT. You are an Application Security Engineer. Draft a security research writeup or part of a writeup based on what I share with you."
       }

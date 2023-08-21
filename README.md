@@ -1,6 +1,7 @@
-# Browser AI: AppSec Edition
+# AppSec Buddy
+AppSec Edition of [Browser AI](https://github.com/evanconnelly/browser-ai)
 
-Web Application Security Edition: A Chrome Extension to leverage the power of AI in your browser, with the ability to create and pull from a variety of system roles for given tasks.
+A Chrome Extension to leverage the power of AI in your browser, with the ability to create and pull from a variety of system roles for given web application security tasks.
 
 ## Installation 
 Load into Chrome as an unpacked extension 
@@ -8,7 +9,7 @@ Load into Chrome as an unpacked extension
 ## Setup
 Enter your OpenAI API Key under settings
 
-teams and roles can be defined in config.json
+teams and roles can be modified in config.json
 
 ## Usage
 Select text or input text, select desired role, and generate a response

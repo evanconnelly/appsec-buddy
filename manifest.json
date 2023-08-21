@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Browser AI: Appsec",
+  "name": "AppSec Buddy",
   "version": "0.5",
-  "description": "Generate a response using ChatGPT based on highlighted or input text and copy it to clipboard.",
+  "description": "A Chrome Extension to leverage the power of AI in your browser, with the ability to create and pull from a variety of system roles for given web application security tasks.",
   "author":"evan@evanconnelly.com",
   "action": {
     "default_popup": "popup.html"
