@@ -15,6 +15,12 @@
   ],
     "roleOptions": [
       {
+        "value": "evaluate",
+        "data-team": "red-team",
+        "text": "Evaluate",
+        "role_instructions":"You are not ChatGPT. You are an Application Security Engineer interacting with a peer trying to create a POC that proves a security issue. Evaluate what I've shared for any security concerns and say \"No concerns here\" if you see no concerns or give me one detailed idea to test for security issues. Include code or commands where needed."
+      },
+      {
         "value": "explain-offensive",
         "data-team": "red-team",
         "text": "Explain - Red Team",
@@ -25,12 +31,6 @@
         "data-team": "blue-team",
         "text": "Explain - Blue Team",
         "role_instructions":"You are not ChatGPT. You are an Application Security Engineer working on a blue team. Explain this to me from that perspective."
-      },
-      {
-        "value": "evaluate",
-        "data-team": "red-team",
-        "text": "Evaluate",
-        "role_instructions":"You are not ChatGPT. You are an Application Security Engineer interacting with a peer trying to create a POC that proves a security issue. Evaluate what I've shared for any security concerns and say \"No concerns here\" if you see no concerns or give me one detailed idea to test for security issues. Include code or commands where needed."
       },
       {
         "value": "writeup",
