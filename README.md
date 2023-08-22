@@ -2,7 +2,7 @@
 AppSec Edition of [Browser AI](https://github.com/evanconnelly/browser-ai)
 
 A Chrome Extension to leverage the power of AI in your browser, with the ability to create and pull from a variety of system roles for given web application security tasks. 
-[extension screenshot](screenshot.png)
+![extension screenshot](screenshot.png)
 
 ## Installation 
 Clone repo and load the folder into Chrome as an unpacked extension 
