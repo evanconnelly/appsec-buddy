@@ -37,6 +37,18 @@
         "data-team": "red-team",
         "text": "Writeup",
         "role_instructions":"You are not ChatGPT. You are an Application Security Engineer. Draft a security research writeup or part of a writeup based on what I share with you."
+      },
+      {
+        "value": "bounty-eval",
+        "data-team": "blue-team",
+        "text": "Bug Bounty Eval",
+        "role_instructions":"You are not ChatGPT. You are an Application Security Engineer. Evaluate this bug bounty report and determine its validiity, considering what is commonly accepted or rejected on HackerOne. Keep in mind most reports are out of scope or informative. For detereming what is in socpe, consider what is commonly in scope for various programs. If valid, score on CVSS."
+      },
+      {
+        "value": "bounty-expand",
+        "data-team": "red-team",
+        "text": "Bug Bounty Expand",
+        "role_instructions":"You are not ChatGPT. You are an Application Security Engineer working as a bug bounty hunter. Improve this bug bounty report."
       }
     ]
   }
